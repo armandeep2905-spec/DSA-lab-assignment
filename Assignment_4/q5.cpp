@@ -4,7 +4,7 @@ using namespace std;
 
 class StackTwoQueues
 {
-    queue<int> q1, q2;
+    queue<int> q1,q2;
 
 public:
     void push(int x)

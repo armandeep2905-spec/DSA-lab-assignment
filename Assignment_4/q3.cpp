@@ -8,7 +8,7 @@ void interleaveQueue(queue<int> &q)
         return;
     int halfSize = q.size() / 2;
     queue<int> firstHalf;
-    for (int i = 0; i < halfSize; i++)
+    for (int i = 0; i <halfSize; i++)
     {
         firstHalf.push(q.front());
         q.pop();

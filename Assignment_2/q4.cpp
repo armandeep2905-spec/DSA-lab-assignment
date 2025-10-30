@@ -7,7 +7,7 @@ int main()
     int i, j, len1, len2, choice;
 
     cout << "Enter first string: ";
-    cin >> str1;
+    cin >>str1;
     cout << "Enter second string: ";
     cin >> str2;
 

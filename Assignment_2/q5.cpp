@@ -7,7 +7,7 @@ void diagonalMatrix(int n)
     int diag[50];
     cout << "Enter diagonal elements: ";
     for (int i = 0; i < n; i++)
-        cin >> diag[i];
+        cin>> diag[i];
 
     cout << "Diagonal Matrix:\n";
     for (int i = 0; i < n; i++)

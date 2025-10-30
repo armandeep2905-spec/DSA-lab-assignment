@@ -8,7 +8,7 @@ public:
     CircularQueue(int cap) {
         capacity = cap;
         arr = new int[capacity];
-        front = rear = -1;
+        front = rear =-1;
         size = 0;
     }
     ~CircularQueue() {

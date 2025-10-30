@@ -32,7 +32,7 @@ public:
     }
     void pop()
     {
-        if (!isEmpty())
+        if(!isEmpty())
         {
             cout << "Popped " << arrLen[top--] << endl;
         }

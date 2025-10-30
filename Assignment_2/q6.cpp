@@ -8,7 +8,7 @@ struct Triplet {
 void printTriplet(Triplet mat[], int size) {
     cout << "Row Col Val\n";
     for (int i = 0; i < size; i++) {
-        cout << mat[i].row << "   " << mat[i].col << "   " << mat[i].val << endl;
+        cout<< mat[i].row << "   " << mat[i].col << "   " << mat[i].val << endl;
     }
 }
 

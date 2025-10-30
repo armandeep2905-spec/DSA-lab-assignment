@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int r, c;
+    int r,c;
     cin >> r >> c;
     int M[10][10], T[10][10];
     for (int i = 0; i < r; i++)

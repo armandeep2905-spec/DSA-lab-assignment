@@ -6,7 +6,7 @@ int main()
 {
     string s;
     cin >> s;
-    queue<char> q;
+    queue<char>q;
     int freq[256] = {0};
     for (char c : s)
     {

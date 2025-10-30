@@ -6,7 +6,7 @@ using namespace std;
     {
         int arr[100], n = 0, choice, pos, val, i, search, found;
 
-        while (true)
+        while(true)
         {
             cout << "MENU"<<endl;
             cout << "1. CREATE\n2. DISPLAY\n3. INSERT\n4. DELETE\n5. LINEAR SEARCH\n6. EXIT\n";

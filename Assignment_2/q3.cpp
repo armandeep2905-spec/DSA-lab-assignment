@@ -6,7 +6,7 @@ int linearMissing(int arr[], int n)
     for (int i = 1; i <= n + 1; i++)
     {
         bool found = false;
-        for (int j = 0; j < n; j++)
+        for(int j = 0; j < n; j++)
             if (arr[j] == i)
                 found = true;
         if (!found)

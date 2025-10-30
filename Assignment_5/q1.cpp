@@ -19,7 +19,7 @@ public:
     }
     void insertEnd(int val) {
         Node* n = new Node(val);
-        if (!head) { head = n; return; }
+        if (!head){ head = n; return; }
         Node* temp = head;
         while (temp->next) temp = temp->next;
         temp->next = n;

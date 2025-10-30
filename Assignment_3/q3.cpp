@@ -10,7 +10,7 @@ bool isBalanced(const string &s)
     {
         if (ch == '(')
         {
-            parenthesesStack.push(ch);
+        parenthesesStack.push(ch);
         }
         else if (ch == ')')
         {

@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n;
-    cin >> n;
+    cin >>n;
     int arr[100], uniqueArr[100], m = 0;
     for (int i = 0; i < n; i++)
         cin >> arr[i];

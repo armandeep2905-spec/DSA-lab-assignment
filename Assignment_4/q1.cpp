@@ -11,7 +11,7 @@ class Queue
 public:
     Queue()
     {
-        front = -1;
+        front =-1;
         rear = -1;
     }
     bool isEmpty()

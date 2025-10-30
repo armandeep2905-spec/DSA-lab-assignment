@@ -18,7 +18,7 @@ int evaluatePostfix(const string &exp)
             st.pop();
             int a = st.top();
             st.pop();
-            switch (ch)
+            switch(ch)
             {
             case '+':
                 st.push(a + b);
